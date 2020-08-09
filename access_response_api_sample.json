@@ -1,0 +1,60 @@
+
+{
+"access": {
+"serviceCatalog": [
+    ...
+    {
+     
+        "endpoints": [
+            {
+                "tenantId": "999999",
+                "publicURL": "https:\\/\\/dns.api.rackspacecloud.com\\/v1.0\\/999999"
+            }
+        ],
+        "name": "cloudDNS",
+        "type": "rax:dns"
+    },
+    {
+        "endpoints": [
+            {
+                "tenantId": "999999",
+                "publicURL": "https:\\/\\/identity.api.rackspacecloud.com\\/v2.0",
+                "region": "DFW"
+            }
+        ],
+        "name": "Cloud Auth Service",
+        "type": "identity"
+    },
+    ...
+],
+"user": {
+    "RAX-AUTH:sessionInactivityTimeout": "PT12H",
+    "RAX-AUTH:defaultRegion": "DFW",
+    "roles": [
+        {
+            "name": "object-store:default",
+            "tenantId": "MossoCloudFS_a7767ada-e4bc-46c5-9a40-f540beaa172e",
+            "description": "A Role ",
+            "id": "1"
+        },
+        ...    
+    ],
+    "RAX-AUTH:phonePin": "999999",
+    "name": "<username>",
+    "id": "<999999>",
+    "RAX-AUTH:domainId": "999999",
+    "email": "xxxxxx@mail.com.br",
+    "RAX-AUTH:phonePinState": "ACTIVE"
+},
+"token": {
+    "expires": "2020-01-01T02:00:00.821Z",
+    "RAX-AUTH:issued": "2020-01-01T01:00:00.821Z",
+    "RAX-AUTH:authenticatedBy": [
+        "APIKEY"
+    ],
+    "id": "AAAAAaaaaaAAAAAaaaaaAAAAAaaaaaAAAAAaaaaaAAAAAaaaaaAAAAAaaaaaAAAAAaaaaaAAAAAaaaaaAAAAAaaaaaAAAAAaaaaaAAAAAaaaaaAAAAAaaaaa",
+    "tenant": {
+        "name": "999999",
+        "id": "999999"
+    }
+}}}
