@@ -32,7 +32,6 @@ class Droplets(object):
 
         return drops
 
-
     def show_droplets(self):
         ds = self.get_droplets()
         for d in ds:
